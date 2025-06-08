@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let code = document.querySelectorAll(".code");
+	code[0].focus()
 code.forEach(element => {
-
   element.addEventListener("keyup", (event) => {
     if (event.key >= '0' && event.key <= '9') {
         // event.target.value=event.target.value.slice(-1,2);
